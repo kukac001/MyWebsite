@@ -47,7 +47,7 @@ const Navbar = () => {
                 ))}
             </div>
             <div className="w-full flex justify-end ml-auto">
-                <button className="bg-black text-white hover:bg-slate-700">
+                <button className="h-12 rounded-lg text-center p-3 bg-black text-white hover:bg-slate-700">
                     Send and e-mail
                 </button>
             </div>
