@@ -50,13 +50,13 @@ const Navbar = () => {
                     </div>
                 ))}
             </div>
-            <div className="w-full flex justify-end ml-auto md:items-center">
+            <div className="hidden md:flex w-full justify-end ml-auto md:items-center mr-5 md:mr-0">
                 <button className="h-10 text-sm rounded-lg text-center pl-2 pr-2 bg-black text-white hover:bg-slate-700 xl:text-lg">
                     Contact
                 </button>
             </div>
             <div className="flex-col w-full md:hidden">
-                <div className="flex justify-end w-full items-center">
+                <div className="flex justify-end items-center">
                     <div>
                         <button
                             type="button"

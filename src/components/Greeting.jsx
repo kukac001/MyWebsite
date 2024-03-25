@@ -16,7 +16,7 @@ const Greeting = () => {
                     </button>
                 </div>
             </div>
-            <div className="flex w-11/12 items-center justify-center ml-auto mr-auto p-5 md:p-0 mt-5 md:mr-0 md:ml-auto md:w-7/12 md:h-72">
+            <div className="flex h-72 w-11/12 items-center justify-center ml-auto mr-auto p-5 md:p-0 mt-5 md:mr-0 md:ml-auto md:w-7/12 md:h-72">
                 <Canvas flat linear camera={{ position: [0, 0, 20] }}>
                     <NeuralNetwork />
                     <OrbitControls />
