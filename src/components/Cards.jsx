@@ -28,7 +28,7 @@ const Cards = () => {
         },
         {
             title: "Currently",
-            starter: "Working together with my friends",
+            starter: "Working together with my friends and travelling",
             paragraph:
                 "I am in a lucky positions because I can travel the world, currently living in Montréal, where I do self-improvement (productivity, programming and health). Also, making a lots of new friends.",
             img: currently,
