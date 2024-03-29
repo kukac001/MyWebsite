@@ -5,6 +5,8 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Cards from "./components/Cards";
 import Projects from "./components/Projects";
+import Connect from "./components/Connect";
+import Socials from "./components/Socials";
 
 function App() {
     return (
@@ -15,6 +17,8 @@ function App() {
             <Skills />
             <Cards />
             <Projects />
+            <Connect />
+            <Socials />
         </div>
     );
 }

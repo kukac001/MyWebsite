@@ -57,7 +57,7 @@ const Projects = () => {
     return (
         <div className="text-center xl:w-8/12 mt-20">
             <h2 className="text-2xl font-bold font-mono">Projects</h2>
-            <h3 className="text-lg">(Click on image)</h3>
+            <h3 className="text-lg">(Click on image, if you want to)</h3>
             <div className="flex flex-wrap md:flex-nowrap md:space-x-5 w-full mt-10 text-center">
                 <div className="flex flex-col mt-10 md:mt-5 w-1/4 ml-auto mr-auto md:ml-0 md:mr-0 md:w-2/12">
                     <button
