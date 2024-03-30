@@ -50,7 +50,10 @@ const Skills = () => {
     ];
 
     return (
-        <article className="flex flex-wrap mt-20 rounded-lg w-full xl:w-8/12 md:justify-center md:space-x-10">
+        <article
+            id="skills"
+            className="flex flex-wrap mt-20 rounded-lg w-full xl:w-8/12 md:justify-center md:space-x-10"
+        >
             {skills.map((skill) => (
                 <section
                     className="w-full flex flex-col p-5 border-b-2 border-slate-300 text-center items-center hover:border-t-2 md:w-3/12 hover:-translate-y-3 hover:shadow-2xl"

@@ -11,7 +11,13 @@ const Greeting = () => {
                 </h1>
                 <h2 className="text-xl font-mono">David Daniel Kozma</h2>
                 <div className="pt-5">
-                    <button className="h-10 text-sm rounded-lg text-center pl-2 pr-2 bg-black text-white hover:bg-slate-700 xl:text-lg">
+                    <button
+                        className="h-10 text-sm rounded-lg text-center pl-2 pr-2 bg-black text-white hover:bg-slate-700 xl:text-lg"
+                        onClick={(e) => {
+                            e.preventDefault();
+                            window.location.href = "#connect";
+                        }}
+                    >
                         Contact
                     </button>
                 </div>

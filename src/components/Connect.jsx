@@ -1,6 +1,9 @@
 const Connect = () => {
     return (
-        <div className="flex flex-col w-full border-2 bg-black border-slate-950 shadow-2xl rounded-xl p-5 items-center mt-20 xl:w-8/12 pt-20 pb-20">
+        <div
+            id="connect"
+            className="flex flex-col scroll-mt-10 w-full border-2 bg-black border-slate-950 shadow-2xl rounded-xl p-5 items-center mt-20 xl:w-8/12 pt-20 pb-20"
+        >
             <h2 className="text-4xl font-bold font-mono text-white">
                 Lets connect
             </h2>

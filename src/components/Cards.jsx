@@ -36,7 +36,10 @@ const Cards = () => {
     ];
 
     return (
-        <section className="flex flex-col w-full items-center mt-20 xl:w-8/12 space-y-10">
+        <section
+            id="story"
+            className="flex flex-col w-full items-center mt-20 xl:w-8/12 space-y-10"
+        >
             <h2 className="text-2xl font-bold font-mono">My story so far</h2>
             {cards.map((card, index) => (
                 <div

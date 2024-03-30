@@ -1,6 +1,9 @@
 const About = () => {
     return (
-        <div className="flex flex-col w-full items-center mt-20 xl:w-8/12 pb-10">
+        <div
+            id="about"
+            className="flex flex-col scroll-mt-20 w-full items-center mt-20 xl:w-8/12 pb-10"
+        >
             <h2 className="text-3xl font-bold">
                 Hi I am Daniel, nice to meet you!
             </h2>

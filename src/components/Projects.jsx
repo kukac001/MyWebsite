@@ -55,7 +55,7 @@ const Projects = () => {
     ];
 
     return (
-        <div className="text-center xl:w-8/12 mt-20">
+        <div id="projects" className="text-center xl:w-8/12 mt-20">
             <h2 className="text-2xl font-bold font-mono">Projects</h2>
             <h3 className="text-lg">(Click on image, if you want to)</h3>
             <div className="flex flex-wrap md:flex-nowrap md:space-x-5 w-full mt-10 text-center">
